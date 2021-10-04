@@ -1,5 +1,4 @@
 import React,{ Component } from 'react';
-import { render } from 'react-dom';
 import './App.css';
 import Nvbar from './Components/Nvbar/Nvbar';
 import NvCarousel from './Components/NvCarousel/NvCarousel';

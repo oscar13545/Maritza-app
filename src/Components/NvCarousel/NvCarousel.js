@@ -4,7 +4,6 @@ import { Carousel, Card} from 'react-bootstrap';
 import './NvCarousel.css';
 import NvImg1 from  './NvImg1.jpg'; 
 import NvImg2 from  './NvImg2.jpg'; 
-import NvImg3 from  './NvImg3.jpg'; 
 import NvImg4 from  './NvImg4.jpg'; 
 import MenuQr from  './MenuQr.png'; 
 import ImagMap from  './ImagMap.png'; 

@@ -15,8 +15,8 @@ const Footer = () => <footer className="page-footer font-small blue pt-4">
             <div className="col-md-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Contactos</h5>
                 <ul className="list-unstyled">
-                    <li><a href="https://www.facebook.com/Chef-Maritza-Heredia-110275133831334">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/chefmaritza_heredia/">Instagram</a></li>
+                    <li><a src="https://www.facebook.com/Chef-Maritza-Heredia-110275133831334">Facebook</a></li>
+                    <li><a src="https://www.instagram.com/chefmaritza_heredia/">Instagram</a></li>
                     
                 </ul>
             </div>
@@ -24,7 +24,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4">
             <div className="col-md-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Informacion</h5>
                 <ul className="list-unstyled">
-                    <li><a href="https://www.google.com/maps/dir/28.6031872,-106.070016/28.6086888,-106.0637981/@28.6053808,-106.0721522,16z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0">Ubicacion</a></li>
+                    <li><a src="https://www.google.com/maps/dir/28.6031872,-106.070016/28.6086888,-106.0637981/@28.6053808,-106.0721522,16z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0">Ubicacion</a></li>
                     <li><a>614 162 7026</a></li>
                 </ul>
             </div>
