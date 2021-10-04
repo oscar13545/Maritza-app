@@ -1,6 +1,6 @@
 import React  from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel, Card} from 'react-bootstrap';
+import { Carousel, Card, Nav} from 'react-bootstrap';
 import './NvCarousel.css';
 import NvImg1 from  './NvImg1.jpg'; 
 import NvImg2 from  './NvImg2.jpg'; 
@@ -48,10 +48,10 @@ const NvCarousel = (props) => {
 
 
     <div class="Information">
-<Card bg="dark" text="light" >
+<Card bg="dark" text="light" className="justify-content-end" >
   <Card.Header as="h5">Horario</Card.Header>
   <Card.Body>
-    <Card.Title>Lunes a Viernes</Card.Title>
+    <Card.Title >Lunes a Viernes</Card.Title>
     <Card.Text>
      8:00 - 16:00
     </Card.Text>
@@ -84,6 +84,7 @@ const NvCarousel = (props) => {
     <Card.Img variant="bottom" src={MenuQr} height="800"  />
   </Card>
   </div>
+
 
     </>
 

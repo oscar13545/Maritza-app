@@ -18,7 +18,6 @@ import Img12 from  './Img12.jpeg';
 const Platillos = (props) => {
     return (
         <>
-        <br />
         <Card bg="dark" text="light">
   <Card.Body >
     <Card.Title>Platillos de vitrina</Card.Title>
