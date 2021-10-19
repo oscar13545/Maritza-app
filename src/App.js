@@ -5,7 +5,7 @@ import NvCarousel from './Components/NvCarousel/NvCarousel';
 import Footer from './Components/Footer/Footer';
 import Platillos from './Components/Platillos/Platillos';
 import MenuQr from './Components/MenuQr/MenuQr';
-import { Route, Switch } from 'react-router-dom';
+
 
 class App extends Component{
   
@@ -22,6 +22,9 @@ class App extends Component{
           <Nvbar />
           <Platillos />
           <Footer />
+        </div>
+        <div id="/menu">
+          <MenuQr />
         </div>
         
         
