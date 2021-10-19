@@ -5,25 +5,25 @@ import NvCarousel from './Components/NvCarousel/NvCarousel';
 import Footer from './Components/Footer/Footer';
 import Platillos from './Components/Platillos/Platillos';
 import MenuQr from './Components/MenuQr/MenuQr';
-import { Route, Switch } from 'react-router-dom';
+import {BrowserRouter, Route, Switch } from 'react-router-dom';
 
 class App extends Component{
   
   render () {
     return (
       <div className="App">
-        
+        <BrowserRouter>
         <Nvbar />
       <Switch>
-        <Route exact path='/' component={NvCarousel} />
-        <Route exact path='/home' component={NvCarousel} />
-        <Route exact path='/platillo' component={Platillos} />
-        <Route exact path='/menu' component={MenuQr} />  
+        <Route exact path='/' > <NvCarousel /> </Route>
+        <Route  path='/home'> <NvCarousel /> </Route>
+        <Route  path='/platillo'> <Platillos /></Route>
+        <Route  path='/menu'> <MenuQr/> </Route>
         
       </Switch>
         <Footer />
         
-        
+        </BrowserRouter>
         
         
         </div>
