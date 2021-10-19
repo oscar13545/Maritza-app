@@ -5,7 +5,7 @@ import NvCarousel from './Components/NvCarousel/NvCarousel';
 import Footer from './Components/Footer/Footer';
 import Platillos from './Components/Platillos/Platillos';
 import MenuQr from './Components/MenuQr/MenuQr';
-
+import { Route, Switch } from 'react-router-dom';
 
 class App extends Component{
   
@@ -13,22 +13,15 @@ class App extends Component{
     return (
       <div className="App">
         
-        <div id="/home">
-          <Nvbar />
-          <NvCarousel />
-          <Footer />
-        </div>
-        <div id="/platillo">
-          <Nvbar />
-          <Platillos />
-          <Footer />
-        </div>
-        <div id="/menu">
-          <MenuQr />
-        </div>
+        <Nvbar />
+      <Switch>
+        <Route exact path='/' component={NvCarousel} />
+        <Route exact path='/home' component={NvCarousel} />
+        <Route exact path='/platillo' component={Platillos} />
+        <Route exact path='/menu' component={MenuQr} />  
         
-        
-     
+      </Switch>
+        <Footer />
         
         
         
