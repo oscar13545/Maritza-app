@@ -13,15 +13,19 @@ class App extends Component{
     return (
       <div className="App">
         
-        <Nvbar />
-      <Switch>
-        <Route exact path='/' component={NvCarousel} />
-        <Route exact path='/home' component={NvCarousel} />
-        <Route path='/platillo' component={Platillos} />
-        <Route path='/menu' component={MenuQr} />  
+        <div id="/home">
+          <Nvbar />
+          <NvCarousel />
+          <Footer />
+        </div>
+        <div id="/platillo">
+          <Nvbar />
+          <Platillos />
+          <Footer />
+        </div>
         
-      </Switch>
-        <Footer />
+        
+     
         
         
         
